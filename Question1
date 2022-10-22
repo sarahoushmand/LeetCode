@@ -1,0 +1,12 @@
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+        map = {')': '(', ']': '[', '}': '{'}
+        for item in s:
+            if len(stack) == 0 or not item in map.keys():
+                stack.append(item)
+            elif map.get(item) == stack[-1]:
+                stack.pop()
+            else:
+                stack.append(item)
+        return len(stack) == 0

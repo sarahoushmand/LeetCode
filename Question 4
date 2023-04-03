@@ -1,0 +1,15 @@
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        count = 0
+        result = 1
+        
+        while count < abs(n):
+            if n == 0:
+                return 1
+            elif n < 0 and count == 0:
+                x = 1/x
+
+            result = result * x
+            count += 1
+        
+        return result

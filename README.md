@@ -23,3 +23,9 @@ https://leetcode.com/problems/rotate-image/description/
 
 
 You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
+
+
+# Question4:
+https://leetcode.com/problems/powx-n/description/
+
+Implement pow(x, n), which calculates x raised to the power n (i.e., xn).

@@ -17,3 +17,9 @@ Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
 Given an integer numRows, return the first numRows of Pascal's triangle.
 
 In Pascal's triangle, each number is the sum of the two numbers.
+
+## Question3:
+https://leetcode.com/problems/rotate-image/description/
+
+
+You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
